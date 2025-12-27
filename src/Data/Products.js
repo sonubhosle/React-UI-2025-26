@@ -72,3 +72,12 @@
     reviews: 203
   }
 ];
+
+   export const category = [
+     {
+   id:1,
+   poster:"https://images.unsplash.com/photo-1628352081506-83c43123ed6d?q=80&w=800&auto=format&fit=crop",
+   name:"rthtyjhuty"
+     },
+  
+   ]
