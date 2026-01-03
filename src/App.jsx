@@ -4,7 +4,7 @@ import Footer from './Components/Footer/Footer'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Contact from './Pages/Contact'
 import Home from './Pages/Home'
-import ProductDetails from './Pages/ProductDetails'
+import Category_Details from './Pages/Category_Details'
 
 const App = () => {
 
@@ -14,7 +14,7 @@ const App = () => {
        <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
-        <Route path='/product/:id'  element={<ProductDetails/>}/>
+         <Route path='/category/:name' element={<Category_Details/>}></Route>
        </Routes>
        <Footer/>
      </BrowserRouter>
